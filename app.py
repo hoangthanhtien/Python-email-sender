@@ -39,7 +39,7 @@ for name, email in zip(names, emails):
     message = message_template.substitute(PERSON_NAME=name.title())
 
     # setup the parameters of the message
-    msg['From'] = "tiendangcap123@gmail.con"
+    msg['From'] = "account"
     msg['To'] = email
     msg['Subject'] = "This is TEST"
 
